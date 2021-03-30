@@ -1,0 +1,13 @@
+{
+    "name": "01-github-explorer",
+    "author": {
+        "name": "Otacílio Neto",
+        "email": "otaciliomanoel.neto@gmail.com"
+    },
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "react": "^17.0.2"
+    }
+}
