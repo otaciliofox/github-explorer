@@ -1,13 +1,5 @@
-interface RepositoryItemProps {
-  repository: {
-    name: string;
-    description: string;
-    html_url: string;
-  }
-}
-
-export function RepositoryItem({ repository  }: RepositoryItemProps) {
-	const { name, description, html_url } = repository;
+export default function RepositoryItem({ Repository  }: RepositoryItemProps) {
+	const { name, description, html_url } = Repository;
 	return (
 		<li>
 			<strong>{name}</strong>

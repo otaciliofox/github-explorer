@@ -1,13 +1,6 @@
 import { useState, useEffect } from 'react';
-import { RepositoryItem } from '../RepositoryItem/Index';
+import RepositoryItem from '../RepositoryItem/Index';
 import './style.scss';
-
-interface Repository {
-  name: string;
-  description: string;
-  html_url: string;
-}
-
 
 export function RepositoryList() {
 	const [ repositories, setRepositories ] = useState<Repository[]>([]);
@@ -22,7 +15,7 @@ export function RepositoryList() {
 		<section className="repository-list">
 			<h1>Lista de Repositórios</h1>
 			<ul>
-				{repositories.map((repository) => <RepositoryItem key={repository.name} repository={repository} />)}
+				{repositories.map((repository) => <RepositoryItem key={repository.name} Repository={repository} />)}
 			</ul>
 		</section>
 	);
