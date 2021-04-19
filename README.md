@@ -8,7 +8,7 @@
 
 Github Explorer is a ReactJs application that uses GitHub Api to fecth and filter data (issues and pull requests) from existing repositories
 
-Check the live version here: comming soon
+Check the live version here: https://github-explorer-khaki-theta.vercel.app/
 
 ## Getting Started
 
@@ -34,4 +34,4 @@ Check the live version here: comming soon
 
 ![alt text](/public/images/home.png "Homepage")
 
-![alt text](/public/images/issues.png "Homepage")
+![alt text](/public/images/issues.png "Issue")
